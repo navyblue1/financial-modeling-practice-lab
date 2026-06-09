@@ -1,0 +1,2 @@
+entry_mode,allocation_per_trade_pct,max_concurrent_positions,initial_equity,ending_equity,portfolio_return_pct,trades_available,trades_taken,trades_skipped_max_positions,trades_skipped_no_cash,quick_20pct_weighted_return_pct
+breakout,20.0,5,100000.0,103293.14,3.2931,140,115,5,20,2.4546

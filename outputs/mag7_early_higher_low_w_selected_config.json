@@ -1,0 +1,20 @@
+{
+  "swing_window": 2,
+  "low_tolerance_pct": 0.012,
+  "max_second_low_undercut_pct": 0.008,
+  "min_rebound_pct": 0.006,
+  "breakout_lookahead": 12,
+  "breakout_buffer_pct": 0.0,
+  "volume_sma_window": 20,
+  "require_volume_confirmation": false,
+  "volume_multiplier": 1.05,
+  "max_first_low_to_neckline_bars": 24,
+  "max_neckline_to_second_low_bars": 24,
+  "stop_buffer_pct": 0.0025,
+  "reward_risk": 2.0,
+  "max_hold_days": 20,
+  "starting_cash": 100000.0,
+  "risk_per_trade_pct": 0.003,
+  "max_position_pct": 0.2,
+  "commission_per_order": 0.0
+}

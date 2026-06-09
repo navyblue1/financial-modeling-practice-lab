@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Raw cached price downloads can be regenerated and are noisy in Git.
+outputs/*_prices/
+outputs/broad_w_prices/
+outputs/mag7_intraday_prices/
+outputs/mag7_ytd_prices/
+outputs/custom_growth_w_breakout_prices/
+outputs/custom_growth_oklo_w_breakout_prices/
+
+# Heartbeat monitor snapshots are time-specific operational logs.
+outputs/heartbeat_w_signals_*.csv
+
+# Local/editor artifacts.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

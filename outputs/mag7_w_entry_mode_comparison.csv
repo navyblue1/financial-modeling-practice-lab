@@ -1,0 +1,3 @@
+entry_mode,patterns,trades,wins,hit_rate_pct,avg_r_multiple,total_trade_return_pct
+early_higher_low,87,87,48,55.17,0.012,0.318
+breakout,209,140,77,55.0,0.059,12.273

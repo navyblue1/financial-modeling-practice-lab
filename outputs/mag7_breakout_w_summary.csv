@@ -1,0 +1,8 @@
+symbol,company,entry_mode,first_bar,last_bar,bars,stock_return_pct,patterns_detected,closed_trades,wins,hit_rate_pct,avg_return_pct,total_trade_return_pct,avg_r_multiple
+AAPL,Apple,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,11.189,24,17,11,64.71,0.096,1.639,0.109
+MSFT,Microsoft,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,8.202,29,22,11,50.0,-0.088,-1.941,-0.065
+NVDA,Nvidia,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,4.722,29,18,12,66.67,0.216,3.883,0.102
+AMZN,Amazon,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,1.991,26,19,11,57.89,0.241,4.584,0.203
+GOOGL,Alphabet,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,-0.6,27,21,8,38.1,-0.185,-3.881,-0.172
+META,Meta Platforms,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,3.076,32,20,12,60.0,0.265,5.306,0.193
+TSLA,Tesla,breakout,2026-05-01 09:30,2026-05-29 15:55,1560,13.335,42,23,12,52.17,0.117,2.683,0.08

@@ -1,0 +1,3 @@
+symbol,interval,error
+RDFN,5m,HTTP Error 404: Not Found
+CFLT,5m,HTTP Error 404: Not Found

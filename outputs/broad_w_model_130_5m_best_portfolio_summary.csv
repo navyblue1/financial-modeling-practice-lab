@@ -1,0 +1,2 @@
+initial_equity,ending_equity,portfolio_return_pct,max_drawdown_pct,trades_available,trades_taken,trades_skipped_max_positions,trades_skipped_no_cash,quick_20pct_weighted_return_pct
+100000.0,116164.17,16.1642,-6.1651,1609,210,583,816,48.6594
