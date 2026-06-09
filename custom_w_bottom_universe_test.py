@@ -28,7 +28,7 @@ from w_bottom_demo import StrategyConfig
 
 
 DEFAULT_SYMBOLS = ["MU", "SNDK", "GLW", "OLKO", "RGTI", "IONQ", "CSCO", "AMKR", "ASTS", "RKLB"]
-OUTPUT_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = Path(__file__).resolve().parent / "data_and_testing"
 
 
 def load_breakout_config() -> StrategyConfig:

@@ -23,7 +23,7 @@ from broad_w_model_optimizer import DEFAULT_UNIVERSE, Variant, config_from_varia
 from mag7_intraday_w_bottom_optimizer import detect_intraday_w_bottoms
 
 
-OUTPUT_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = Path(__file__).resolve().parent / "data_and_testing"
 INTERVAL = "5m"
 TREND_BARS = 12
 MIN_TREND_RETURN = 0.01

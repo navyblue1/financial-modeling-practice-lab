@@ -771,7 +771,12 @@ def parse_args() -> argparse.Namespace:
         help="Entry rule. breakout waits for neckline breakout; early-higher-low enters after confirmed low 2 with low2 > low1 and neckline > W start.",
     )
     parser.add_argument("--min-train-trades", type=int, default=5, help="Minimum train trades needed for parameter selection.")
-    parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parent, help="Output folder.")
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path(__file__).resolve().parent / "data_and_testing",
+        help="Output folder.",
+    )
     return parser.parse_args()
 
 

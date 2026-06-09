@@ -331,7 +331,12 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Audit W-bottom strategy on Magnificent Seven YTD data.")
     parser.add_argument("--start-date", default="2026-01-01", help="Inclusive YTD start date, YYYY-MM-DD.")
     parser.add_argument("--end-date", default="2026-06-08", help="Exclusive end date, YYYY-MM-DD. Use today's date to avoid partial daily bars.")
-    parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parent, help="Output folder.")
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path(__file__).resolve().parent / "data_and_testing",
+        help="Output folder.",
+    )
     return parser.parse_args()
 
 

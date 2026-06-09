@@ -20,7 +20,7 @@ from mag7_intraday_w_bottom_optimizer import MAG7, detect_intraday_w_bottoms
 from w_bottom_demo import StrategyConfig
 
 
-OUTPUT_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = Path(__file__).resolve().parent / "data_and_testing"
 PRICE_DIR = OUTPUT_DIR / "mag7_intraday_prices"
 WINDOW_LABEL = "2026-05-01_2026-06-01"
 INTERVAL = "5m"

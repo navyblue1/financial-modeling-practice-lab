@@ -5,15 +5,18 @@ venv/
 .env
 
 # Raw cached price downloads can be regenerated and are noisy in Git.
-outputs/*_prices/
-outputs/broad_w_prices/
-outputs/mag7_intraday_prices/
-outputs/mag7_ytd_prices/
-outputs/custom_growth_w_breakout_prices/
-outputs/custom_growth_oklo_w_breakout_prices/
+data_and_testing/*_prices/
+data_and_testing/broad_w_prices/
+data_and_testing/mag7_intraday_prices/
+data_and_testing/mag7_ytd_prices/
+data_and_testing/custom_growth_w_breakout_prices/
+data_and_testing/custom_growth_oklo_w_breakout_prices/
 
 # Heartbeat monitor snapshots are time-specific operational logs.
-outputs/heartbeat_w_signals_*.csv
+data_and_testing/heartbeat_w_signals_*.csv
+
+# Legacy local scratch folder, if recreated.
+outputs/
 
 # Local/editor artifacts.
 .DS_Store

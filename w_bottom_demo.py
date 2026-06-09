@@ -685,7 +685,12 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Detect and backtest a simple W-bottom trading setup.")
     parser.add_argument("--input-csv", type=Path, default=None, help="Optional OHLCV CSV. Required columns: Date, Open, High, Low, Close, Volume.")
     parser.add_argument("--symbol", default="DEMO", help="Symbol label used in reports.")
-    parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parent, help="Where CSV and chart outputs are written.")
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path(__file__).resolve().parent / "data_and_testing",
+        help="Where CSV and chart outputs are written.",
+    )
     parser.add_argument("--volume-confirmation", action="store_true", help="Require breakout volume above the rolling average.")
     parser.add_argument("--risk-per-trade-pct", type=float, default=0.01, help="Fraction of equity risked per trade. Default: 0.01.")
     parser.add_argument("--max-position-pct", type=float, default=0.25, help="Maximum equity allocated to one position. Default: 0.25.")

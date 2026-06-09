@@ -25,7 +25,7 @@ from mag7_intraday_w_bottom_optimizer import (
 from w_bottom_demo import StrategyConfig
 
 
-OUTPUT_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = Path(__file__).resolve().parent / "data_and_testing"
 DEFAULT_START_DATE = "2026-05-01"
 DEFAULT_END_DATE = "2026-06-01"
 MIN_PROFIT_RETURN = 0.01
